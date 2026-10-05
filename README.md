@@ -1,1 +1,1 @@
-Todo list project using objects, factories/constructors, modules, webpack, and other stuff
+Writing tests using Jest to practice
