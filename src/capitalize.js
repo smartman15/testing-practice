@@ -1,3 +1,6 @@
 export function capitalize(string) {
-  return string[0].toUpperCase();
+  let processedString = string.split("");
+  processedString[0] = processedString[0].toUpperCase();
+  processedString = processedString.join("");
+  return processedString;
 }
