@@ -11,3 +11,7 @@ test("checks if add function exists", () => {
 test("1 + 1 equals 2", () => {
   expect(calculator.add(1, 1)).toBe(2);
 });
+
+test("212 + 1832 equals 2044", () => {
+  expect(calculator.add(212, 1832)).toBe(2044);
+});
