@@ -1,1 +1,7 @@
-export const calculator = 1;
+export const calculator = (() => {
+  const add = (a, b) => {
+    return a + b;
+  };
+
+  return { add };
+})();
