@@ -3,5 +3,9 @@ export const calculator = (() => {
     return a + b;
   };
 
-  return { add };
+  const substract = (a, b) => {
+    return a - b;
+  };
+
+  return { add, substract };
 })();
