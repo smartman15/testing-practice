@@ -19,3 +19,7 @@ test("212 + 1832 equals 2044", () => {
 test("5 - 2 equals 3", () => {
   expect(calculator.substract(5, 2)).toBe(3);
 });
+
+test("92 - 15 equals 77", () => {
+  expect(calculator.substract(92, 15)).toBe(77);
+});
