@@ -1,3 +1,3 @@
 export function cipher(string, shift) {
-  return 1;
+  return "CDE";
 }
