@@ -31,3 +31,7 @@ test("10/2 equals 5", () => {
 test("30/3 equals 10", () => {
   expect(calculator.divide(30, 3)).toBe(10);
 });
+
+test("100/50 equals 2", () => {
+  expect(calculator.divide(100, 50)).toBe(2);
+});
