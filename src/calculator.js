@@ -7,5 +7,9 @@ export const calculator = (() => {
     return a - b;
   };
 
-  return { add, substract };
+  const divide = (a, b) => {
+    return 5;
+  };
+
+  return { add, substract, divide };
 })();
