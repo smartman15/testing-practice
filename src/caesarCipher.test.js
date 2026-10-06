@@ -15,3 +15,7 @@ test("bro with shift key of 4 encrypts to fvs", () => {
 test("xyz with shift key of 3 encrypts to abc", () => {
   expect(cipher("xyz", 3)).toBe("abc");
 });
+
+test("HeLLo with shift key of 3 encrypts to KhOOr", () => {
+  expect(cipher("HeLLo", 3)).toBe("KhOOr");
+});
