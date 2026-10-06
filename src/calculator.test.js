@@ -39,3 +39,7 @@ test("100/50 equals 2", () => {
 test("2*3 equals 6", () => {
   expect(calculator.multiply(2, 3)).toBe(6);
 });
+
+test("5*8 equals 40", () => {
+  expect(calculator.multiply(5, 8)).toBe(40);
+});
