@@ -7,7 +7,7 @@ export function cipher(string, shift) {
   //   return "cde";
 
   // create variable ciphered to store ciphered text
-  let ciphered;
+  let ciphered = "";
 
   // a-z range = 97-122
   // create for loop i that loops by string length
