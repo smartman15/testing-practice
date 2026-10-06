@@ -23,3 +23,7 @@ test("HeLLo with shift key of 3 encrypts to KhOOr", () => {
 test("BiBo with shift key of 5 encrypts to GnGt", () => {
   expect(cipher("BiBo", 5)).toBe("GnGt");
 });
+
+test("Hello, World! with shift key of 3 encrypts to Khoor, Zruog!", () => {
+  expect(cipher("Hello, World!", 3)).toBe("Khoor, Zruog!");
+});
