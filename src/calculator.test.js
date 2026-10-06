@@ -27,3 +27,7 @@ test("92 - 15 equals 77", () => {
 test("10/2 equals 5", () => {
   expect(calculator.divide(10, 2)).toBe(5);
 });
+
+test("30/3 equals 10", () => {
+  expect(calculator.divide(30, 3)).toBe(10);
+});
