@@ -43,3 +43,7 @@ test("2*3 equals 6", () => {
 test("5*8 equals 40", () => {
   expect(calculator.multiply(5, 8)).toBe(40);
 });
+
+test("12*12 equals 144", () => {
+  expect(calculator.multiply(12, 12)).toBe(144);
+});
