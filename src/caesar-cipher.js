@@ -1,3 +1,5 @@
+import { isPunctuation } from "./punctuation";
+
 export function cipher(string, shift) {
   //   if (string == "bro" && shift == 4) {
   //     return "fvs";
@@ -14,6 +16,11 @@ export function cipher(string, shift) {
   for (let i = 0; i < string.length; i++) {
     //    create stringCode variable to store char code at i
     let stringCode = string.charCodeAt(i);
+    if (isPunctuation(String.fromCharCode(stringCode))) {
+      ciphered += String.fromCharCode(stringCode);
+      continue;
+    }
+
     //    create for loop j for shift times
     for (let j = 0; j < shift; j++) {
       //      increment stringCode by 1
