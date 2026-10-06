@@ -23,3 +23,7 @@ test("5 - 2 equals 3", () => {
 test("92 - 15 equals 77", () => {
   expect(calculator.substract(92, 15)).toBe(77);
 });
+
+test("10/2 equals 5", () => {
+  expect(calculator.divide(10, 2)).toBe(5);
+});
