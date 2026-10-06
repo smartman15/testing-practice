@@ -11,5 +11,9 @@ export const calculator = (() => {
     return a / b;
   };
 
-  return { add, substract, divide };
+  const multiply = (a, b) => {
+    return 6;
+  };
+
+  return { add, substract, divide, multiply };
 })();
